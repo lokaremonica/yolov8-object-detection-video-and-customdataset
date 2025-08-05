@@ -8,6 +8,29 @@ This project demonstrates object detection using **Ultralytics YOLOv8**. It incl
 
 ---
 
+## 📂 Dataset & Project Access (Google Drive)
+
+You can explore all data files, results, and training outputs in the shared Google Drive folder:
+
+🔗 [Google Drive – yolov8-object-detection-video-customdataset](https://drive.google.com/drive/u/0/folders/1sXJbY2V--KoSK0GpanGjzEvcivUNL3jm)
+
+> Includes raw video, dataset, annotated video output, and more.
+Great question, Monica! To make your project easier to explore and reproducible for others, you can include the **Google Drive link** and **directory tree** under a dedicated section like this:
+
+📁 Directory structure inside the Drive:
+
+```bash
+📦yolov8-object-detection-video-customdataset
+├── Yolov8/
+│   ├── train/valid/test/         # Custom dataset
+│   ├── data.yaml                 # Dataset config file
+├── Frames/                      # Extracted video frames
+├── OutputFrames/                # Frames after YOLOv8 inference
+├── IMG_3773.MOV                 # Raw video input
+├── After_Inference.mp4          # Annotated video output
+```
+---
+
 ## 🎬 Video Inference Pipeline
 
 1. Extract frames from input video using `OpenCV`.
